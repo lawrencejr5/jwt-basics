@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+.login-container {
+  background-color: wheat;
+  width: 400px;
+  height: auto;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+.form-handler {
+  margin: 0.5rem;
+}
+.form-handler input {
+  width: 100%;
+  padding: 0.3rem 0.5rem;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.form-handler label {
+  float: left;
+  margin-bottom: 0.3rem;
+  font-weight: 600;
+}
+.btn-handler {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  margin: 1rem;
+}
+.btn-handler button {
+  padding: 0.3rem 0.5rem;
+  font-weight: 600;
+  background-color: rgb(4, 89, 4);
+  border: none;
+  color: white;
+  border-radius: 3px;
+  box-shadow: 1px 4px 4px rgb(190, 190, 190);
+  cursor: pointer;
+}
+
+.dash-container {
+  margin-top: 5rem;
+}
+.dash-wrap {
+  background-color: wheat;
+  width: 400px;
+  padding: 1rem;
+}
+.dash-wrap span {
+  font-size: 25px;
+  display: table;
+  margin-bottom: 1rem;
+}
+.dash-wrap button {
+  padding: 0.3rem 0.5rem;
+  width: 100%;
+  display: block;
+  font-weight: 600;
+  background-color: green;
+  border: none;
+  color: white;
+  border-radius: 3px;
+  box-shadow: 1px 4px 4px rgb(190, 190, 190);
+  cursor: pointer;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jwt Basics</title>
+</head>
+
+<body>
+    <h1 style="margin: 1rem;">Jwt Basics</h1>
+
+    <center>
+        <div class="login-container">
+            <h2>Login/Register</h2>
+            <div class="form-handler">
+                <label for="user">User:</label>
+                <input type="text" id="user" placeholder="Username" autocomplete="off">
+            </div>
+            <div class="form-handler">
+                <label for="pass">Password:</label>
+                <input type="password" id="pass" placeholder="Password">
+            </div>
+            <div class="btn-handler">
+                <button type="submit">Submit</button>
+            </div>
+        </div>
+
+        <div class="dash-container">
+            <h2>Dashboard</h2>
+            <span class="token">No token presesnt</span>
+            <br><br>
+            <div class="dash-wrap">
+                <span>Not authorized to this route</span>
+                <button type="button">Get Data</button>
+            </div>
+        </div>
+    </center>
+
+</body>
+
+</html>
