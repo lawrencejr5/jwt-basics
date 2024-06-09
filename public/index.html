@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.2/axios.min.js"
+        integrity="sha512-JSCFHhKDilTRRXe9ak/FJ28dcpOJxzQaCd3Xg8MyF6XFjODhy/YMCM8HW0TFDckNHWUewW+kfvhin43hKtJxAw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <title>Jwt Basics</title>
 </head>
 
@@ -14,17 +17,20 @@
     <center>
         <div class="login-container">
             <h2>Login/Register</h2>
-            <div class="form-handler">
-                <label for="user">User:</label>
-                <input type="text" id="user" placeholder="Username" autocomplete="off">
-            </div>
-            <div class="form-handler">
-                <label for="pass">Password:</label>
-                <input type="password" id="pass" placeholder="Password">
-            </div>
-            <div class="btn-handler">
-                <button type="submit">Submit</button>
-            </div>
+            <form action="" class="myForm">
+                <div class="form-handler">
+                    <label for="user">User:</label>
+                    <input type="text" id="user" class="user" placeholder="Username" autocomplete="off">
+                </div>
+                <div class="form-handler">
+                    <label for="pass">Password:</label>
+                    <input type="password" id="pass" class="pass" placeholder="Password">
+                </div>
+                <div class="alert"></div>
+                <div class="btn-handler">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
         </div>
 
         <div class="dash-container">
@@ -32,8 +38,8 @@
             <span class="token">No token presesnt</span>
             <br><br>
             <div class="dash-wrap">
-                <span>Not authorized to this route</span>
-                <button type="button">Get Data</button>
+                <span class="dataMsg">Not authorized to this route</span>
+                <button type="button" class="getDataBtn">Get Data</button>
             </div>
         </div>
     </center>
